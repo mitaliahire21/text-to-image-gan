@@ -1,0 +1,25 @@
+# Dataset Analysis - Oxford Flowers 102
+
+## Introduction
+This project analyzes a public dataset to understand its structure and characteristics. The Oxford Flowers 102 dataset is used.
+
+## Objective
+- Explore dataset structure
+- Analyze number of classes and images
+- Visualize images with labels
+
+## Dataset
+Oxford Flowers 102 dataset contains:
+- 102 flower categories
+- Around 8000+ images
+
+## Methodology
+- Loaded dataset using torchvision
+- Checked dataset size and classes
+- Displayed sample images
+
+## Output
+The dataset was successfully analyzed and visualized.
+
+## Conclusion
+Understanding dataset structure helps in building better machine learning models.
