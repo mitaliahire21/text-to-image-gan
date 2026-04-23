@@ -1,0 +1,33 @@
+# Text-to-Image Generation using Stable Diffusion
+
+## Introduction
+This project demonstrates how a pre-trained text-to-image model can generate images from textual descriptions. The model used is Stable Diffusion, which is capable of producing high-quality images.
+
+## Objective
+To generate domain-specific images (such as anime, medical, or flowers) using a pre-trained model and custom prompts.
+
+## Tools & Technologies
+- Python
+- Stable Diffusion
+- Diffusers Library
+- PyTorch
+- Kaggle (GPU)
+
+## Methodology
+1. Enabled GPU in Kaggle
+2. Loaded pre-trained Stable Diffusion model
+3. Generated images using custom text prompts
+4. Saved and downloaded output image
+
+## Sample Prompt
+"anime girl with pink hair, ultra detailed, 4k, cinematic lighting"
+
+## Output
+![Generated Image](output.png)
+
+## Conclusion
+The model successfully generated high-quality images from text prompts. This shows how pre-trained models can be used for domain-specific image generation.
+
+## Future Scope
+- Fine-tuning using custom datasets
+- Using LoRA or DreamBooth for better personalization
